@@ -12,9 +12,9 @@ description: Cojines aromáticos hechos con materiales reciclables
 # URL of Image of the Site
 site-image: /
 # Keywords of the Site
-site-keywords: Site
+site-keywords: pillow, almohada, eco, ecologico
 # URL for the Image of custom Favicon
-favicon-url: 
+favicon-url: https://ecodreams.github.io/assets/images/logo-ed.webp
 
 # URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
 heroimage: https://ecodreams.github.io/assets/images/woman-sleeping.jpg
@@ -22,21 +22,14 @@ heroimage: https://ecodreams.github.io/assets/images/woman-sleeping.jpg
 # Social Media and Contact
 # If you don't want to use any icon, you can leave them blank.
 email: ecodreams2025@gmail.com
-facebook_username: /
-twitter_username: /
 instagram_username: ecodreams.ja
-linkedin_username: /
 github_username:  ecodreams
-youtube_channel_id: /
-reddit_username: /
-behance_username: /
-dribbble_username: /
-spotify_username: /
+whatsapp_number: +593963511550
+tiktok_username: ecodreams
+
 
 # Google Analytics
 google-analytics: /
-# Disqus
-disqus-shortname: /
 
 # Name of the Author
 author-name: EcoDreams
