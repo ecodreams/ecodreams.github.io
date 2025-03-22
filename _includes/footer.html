@@ -1,12 +1,6 @@
 <footer id="footer">
-    <!--Footer Button-->
-    <div class="container has-text-centered has-background-grey-darker" id="backtotop">
-        <a class="has-text-white" onclick="window.scroll(0,0)">BACK TO TOP</a>
-    </div>
-    <!--Footer Main Section-->
     <div class="has-background-grey-darker">
         <div class="container columns">
-            <!--Name Section-->
             <div class="column has-text-left-desktop has-text-centered-mobile">
                 <a href="{{site.url}}{{site.baseurl}}/#about">
                     <div class="columns">
@@ -25,7 +19,6 @@
                 </a>
             </div>
 
-            <!--Link Section-->
             <div class="column has-text-white">
                 <h3>More Links</h3>
                 {% for sitepage in site.html_pages offset: 4 %}
