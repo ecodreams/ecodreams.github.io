@@ -1,8 +1,7 @@
-# WhatATheme
 markdown: kramdown
 
 # URL of the Site
-url: ''
+url: 'https://ecodreams.github.io'
 # Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
 baseurl: 
 
@@ -18,7 +17,7 @@ site-keywords: Site
 favicon-url: 
 
 # URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
-heroimage: https://img.freepik.com/foto-gratis/mujer-durmiendo_231208-12161.jpg?t=st=1742614176~exp=1742617776~hmac=9aabe302df2b09bd28452a1e6073fe2b5d507a204ecbeaa498180799eafd8bfe&w=996
+heroimage: https://ecodreams.github.io/assets/images/woman-sleeping.jpg
 
 # Social Media and Contact
 # If you don't want to use any icon, you can leave them blank.
