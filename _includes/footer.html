@@ -40,12 +40,11 @@
                 </li>
             </div>
 
-            <!--Blog-post Section-->
             <div class="column has-text-white">
-                <h3>Recent Posts</h3>
-                {% for post in site.posts offset: 0 limit:3 %}
+                <h3>Nuestros productos</h3>
+                {% for item in site.data.catalog offset: 0 limit:4 %}
                 <li>
-                    <a href="{{post.url | absolute_url}}">{{post.title}}</a>
+                    <a href="/catalog">{{item.name}}</a>
                 </li>
                 {% endfor %}
             </div>
