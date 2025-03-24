@@ -16,11 +16,10 @@ site-keywords: pillow, almohada, eco, ecologico
 # URL for the Image of custom Favicon
 favicon-url: https://ecodreams.github.io/assets/images/logo-ed.webp
 
-# URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
+# Home page cover image
 heroimage: https://ecodreams.github.io/assets/images/woman-sleeping.jpg
 
 # Social Media and Contact
-# If you don't want to use any icon, you can leave them blank.
 email: ecodreams2025@gmail.com
 instagram_username: ecodreams.ja
 github_username:  ecodreams
