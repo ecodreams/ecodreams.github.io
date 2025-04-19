@@ -55,6 +55,32 @@ a.navbar-item.is-active {
         content: "";
     }
 }
+
+#description {
+    background: rgb(0, 0, 0);
+    background: -moz-linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.75) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.75) 100%);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.75) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000", endColorstr="#000000", GradientType=1);
+
+    &::before {
+        filter: blur(0.15rem);
+        background-image: url({{site.aboutimage}});
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        position: absolute;
+        opacity: 0.25;
+        content: "";
+    }
+}
+
+
 .title {
     margin: auto 0.75rem!important;
 }
@@ -398,4 +424,24 @@ a.navbar-item.is-active {
 
 .has-background-blue {
     background-color: #5D85BB !important;
+}
+
+.mision-vision-p {
+    margin: 1.8rem auto;
+    line-height: 2;
+    width: 70%;
+}
+
+.has-text-blue{
+    color: #5D85BB !important;
+}
+
+.has-text-purple{
+    color: #8875CE !important;
+}
+
+.mision-vision-container {
+    .column {
+        margin: 0;
+    };
 }
