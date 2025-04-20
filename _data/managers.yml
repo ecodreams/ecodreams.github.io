@@ -1,0 +1,19 @@
+- charge: Gerente de RRHH
+  name: Camilo Fernández 
+  description: Administra el equipo, fomenta un buen ambiente laboral y capacita a los colaboradores para mejorar su desempeño.
+
+- charge: Gerente de Finanzas
+  name: Victoria Zambrano
+  description: Gestiona los ingresos, costos e inversiones, asegurando la rentabilidad y estabilidad financiera del negocio.
+
+- charge: Gerente General 
+  name: Bianca Matute 
+  description: Supervisa todas las áreas de la empresa, toma decisiones estratégicas y asegura que se cumplan los objetivos de crecimiento y sostenibilidad.
+
+- charge: Gerente de Marketing
+  name: Michelle Guerrero 
+  description: Desarrolla estrategias para promocionar EcoDreams, gestiona redes sociales, publicidad y ventas, asegurando que el producto llegue a más clientes.
+
+- charge: Gerente de Producción
+  name: Dillan Rovere 
+  description: Coordina la fabricación de los cojines, controla la calidad y optimiza el uso de materiales sostenibles para mantener eficiencia y rentabilidad.

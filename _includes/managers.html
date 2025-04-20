@@ -1,8 +1,33 @@
 <section class="hero is-fullheight has-text-centered has-background-white-ter" id="managers">
-    <div class="hero-body">
+    <div class="hero-body pt-0">
         <div class="container has-text-centered">
-            <div class="section">
-                <p class="subtitle is-uppercase has-text-weight-medium has-text-grey">Nuestros gerentes</p>
+            <div class="section pt-0">
+                <p class="subtitle is-uppercase has-text-weight-medium has-text-blue our-managers-title">Nuestros gerentes</p>
+                <div class="columns managers-container">
+                    {% for manager in site.data.managers %} 
+                    <div class="column">
+                        <div class="card">
+                            <div class="card-content">
+                                <div class="card-header">
+                                    <p class="card-header-title has-text-green manager-charge">
+                                        {{ manager.charge }}
+                                    </p>
+                                </div>
+                                <div class="card-image">
+                                    <img class="is-rounded" src="{{site.author-image}}" alt="{{site.author-name}}">
+                                </div>
+                            </div>
+                        </div>
+
+                        <p class="has-text-weight-medium is-uppercase has-text-blue mt-2">
+                            {{ manager.name }}
+                        </p>
+                        <p class="manager-description">
+                            {{ manager.description }}
+                        </p>
+                    </div>
+                    {% endfor %}
+                </div>
             </div>
         </div>
     </div>
